@@ -1,0 +1,76 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/collections/bday/listings?limit=2"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"pdaAddress\":\"5zXfgjYsjtShK5wcMzqKzkdxhs44YzFQHXvG2oUQYGzd\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"tokenAddress\":\"CjGAZavQi6eUR3DzyWZ8xU2UqQiDCDCPSeKDWrFcUE4M\",\"tokenMint\":\"2F3iJ2FBfWCfBJq1d9RNB876Yyg67ZJPHZ7Dwa8hcGdm\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":0.1,\"rarity\":{},\"extra\":{\"img\":\"https://www.arweave.net/QXQ78mU28UtAH5qstyZXYlz2n3OBxYYEU5ZCNw5MxxY?ext=png\"}},{\"pdaAddress\":\"3sQey9j5fLrwCmAc76i9wXQcKj1q8S2G8xDe94vGFxSs\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"tokenAddress\":\"JBjAgL9YFHaBBgNHiYqgKvEASig4pbRs5UfA67rinxE4\",\"tokenMint\":\"5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":0.1,\"rarity\":{},\"extra\":{\"img\":\"https://www.arweave.net/eANs8rzJml5mzBBQOVlRAOqxiPB_jL6E8NOyLwmmSnI?ext=png\"}}]",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 04:57:57 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "993",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "117",
+        "X-RateLimit-Reset": "1654232249",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"3e1-Ye82UR0foB6ba2FJzfZpRd85Ybw\"",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=8NlAWX8RXpTnLsZm6Fum6IrrO3uAw5o1vZEhlTOi59U-1654232277-0-Afw4ou1TdSEWwX+EYScixyTnL/kOd1OuSVyum4lxBrFAXHPpUv/I6P7o5Ab0qxY5yBVd6pIkJwJ5iQMdXhsvWqQ=; path=/; expires=Fri, 03-Jun-22 05:27:57 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7155d9d7cc059a32-MFE"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/collections/bday/listings?limit=1"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"pdaAddress\":\"5zXfgjYsjtShK5wcMzqKzkdxhs44YzFQHXvG2oUQYGzd\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"tokenAddress\":\"CjGAZavQi6eUR3DzyWZ8xU2UqQiDCDCPSeKDWrFcUE4M\",\"tokenMint\":\"2F3iJ2FBfWCfBJq1d9RNB876Yyg67ZJPHZ7Dwa8hcGdm\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":0.1,\"rarity\":{},\"extra\":{\"img\":\"https://www.arweave.net/QXQ78mU28UtAH5qstyZXYlz2n3OBxYYEU5ZCNw5MxxY?ext=png\"}}]",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 04:57:58 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "497",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "116",
+        "X-RateLimit-Reset": "1654232249",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"1f1-1fH3hA9rs6RUNt9/pVHU9yXa0QE\"",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=3nLeHAIiP6p1TZg3Wuf8mHIKoRkm9xyR6Kqpgxg..sI-1654232278-0-AdVxJbaef7URaY0sEcF8Wf+LRUzTda0gIiB7m55pRq3WXRWHEPLiqQ952OmTLYc7OToBqSVCbeVLlWfk4XMNpZM=; path=/; expires=Fri, 03-Jun-22 05:27:58 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7155d9d8dca29a32-MFE"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

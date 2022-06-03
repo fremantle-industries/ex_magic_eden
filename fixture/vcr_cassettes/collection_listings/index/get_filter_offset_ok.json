@@ -1,0 +1,77 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/collections/bday/listings?limit=2&offset=0"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"pdaAddress\":\"5zXfgjYsjtShK5wcMzqKzkdxhs44YzFQHXvG2oUQYGzd\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"tokenAddress\":\"CjGAZavQi6eUR3DzyWZ8xU2UqQiDCDCPSeKDWrFcUE4M\",\"tokenMint\":\"2F3iJ2FBfWCfBJq1d9RNB876Yyg67ZJPHZ7Dwa8hcGdm\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":0.1,\"rarity\":{},\"extra\":{\"img\":\"https://www.arweave.net/QXQ78mU28UtAH5qstyZXYlz2n3OBxYYEU5ZCNw5MxxY?ext=png\"}},{\"pdaAddress\":\"3sQey9j5fLrwCmAc76i9wXQcKj1q8S2G8xDe94vGFxSs\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"tokenAddress\":\"JBjAgL9YFHaBBgNHiYqgKvEASig4pbRs5UfA67rinxE4\",\"tokenMint\":\"5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":0.1,\"rarity\":{},\"extra\":{\"img\":\"https://www.arweave.net/eANs8rzJml5mzBBQOVlRAOqxiPB_jL6E8NOyLwmmSnI?ext=png\"}}]",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 04:57:58 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "993",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "118",
+        "X-RateLimit-Reset": "1654232249",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"3e1-Ye82UR0foB6ba2FJzfZpRd85Ybw\"",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=FXfblQY4Rs37lkgI7cgnClO0g9kxjxzMfgZURZdnqZs-1654232278-0-AdYSu8lZ3PDjfXWSob7S557qfTnDO5UTyO6cID0OvO7tQ/WrCM7kCbfi2vSSSazBVGEWCt1hUVIYq4C6fDl60ac=; path=/; expires=Fri, 03-Jun-22 05:27:58 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7155d9db4e659a32-MFE"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/collections/bday/listings?limit=2&offset=1"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"pdaAddress\":\"3sQey9j5fLrwCmAc76i9wXQcKj1q8S2G8xDe94vGFxSs\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"tokenAddress\":\"JBjAgL9YFHaBBgNHiYqgKvEASig4pbRs5UfA67rinxE4\",\"tokenMint\":\"5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":0.1,\"rarity\":{},\"extra\":{\"img\":\"https://www.arweave.net/eANs8rzJml5mzBBQOVlRAOqxiPB_jL6E8NOyLwmmSnI?ext=png\"}},{\"pdaAddress\":\"6X5jJfC2Pw36egHCDfAb44DnSBcg8dPfQftAw6q4KbJt\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"tokenAddress\":\"6YiFJiSbJG86jtaxQHAvWJv1MzgtXGXuqbzobGxucsQD\",\"tokenMint\":\"ByyLS9wopNG7mx43j2SmTYCMNJMVf3ppBQpe2ePcoh5W\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":0.1,\"rarity\":{},\"extra\":{\"img\":\"https://www.arweave.net/g1W7fiin2e_06_Y0B7jcVXp6g5gOKDAizXmgOFBbksM?ext=png\"}}]",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 04:57:58 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "993",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "119",
+        "X-RateLimit-Reset": "1654232329",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"3e1-RUY9mKr0T95qj2+OGFKS8cfLs8E\"",
+        "CF-Cache-Status": "HIT",
+        "Age": "10",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=1tv2.SRElOHUOBZPRDULbhXFSMLDFe82nCWL5j1Qb70-1654232278-0-AQF7h7bm1SVIDE8HQsVPcri6DJJJZNHYPD5yoI0uG0daxI5NVq63gV123qhNZgM6hAMyQy9V62kc9o0fOu+kmAQ=; path=/; expires=Fri, 03-Jun-22 05:27:58 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7155d9dc5f1c9a32-MFE"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

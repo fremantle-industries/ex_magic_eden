@@ -1,0 +1,76 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/collections/bday/activities?limit=2"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"signature\":\"63YCGt6n7YwGQXyktZVUUkVjFTDZQaUDHz1ovk22G3whgKRERWZEyYgetYFrDW58MdVR8kDGPGGvoqZ2fTUUyT7z\",\"type\":\"list\",\"source\":\"magiceden_v2\",\"tokenMint\":\"2F3iJ2FBfWCfBJq1d9RNB876Yyg67ZJPHZ7Dwa8hcGdm\",\"collection\":\"bday\",\"slot\":138518599,\"blockTime\":1654221370,\"buyer\":null,\"buyerReferral\":\"\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"\",\"price\":0.1},{\"signature\":\"4UeFTHbvVrgdojFvJXrZDsRRo7mjL9cxYs8ygLGhYEPrze5jnhWDTiX3BZS1PqdKonPjqjbYCzFfrBuwJQrDpQpk\",\"type\":\"list\",\"source\":\"magiceden_v2\",\"tokenMint\":\"5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe\",\"collection\":\"bday\",\"slot\":138518569,\"blockTime\":1654221359,\"buyer\":null,\"buyerReferral\":\"\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"\",\"price\":0.1}]",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 05:03:18 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "765",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "119",
+        "X-RateLimit-Reset": "1654232602",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"2fd-p8YXDaDUxpURnHT5uNrgTcxI57I\"",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=2sMTpyD57Noj0Ca7dMVko9pIyv8JG9FkuhBaP_cjy_E-1654232598-0-AV8LK4MIZJA+5Cz2pi5iIidAs0iet4ScS5qLlRNxKd/QX6pczA/FrIhAUqjIH8zkVWRJHJh33EYHqmu0QtzVGww=; path=/; expires=Fri, 03-Jun-22 05:33:18 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7155e1a9ffa7ec3e-MFE"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/collections/bday/activities?limit=1"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"signature\":\"63YCGt6n7YwGQXyktZVUUkVjFTDZQaUDHz1ovk22G3whgKRERWZEyYgetYFrDW58MdVR8kDGPGGvoqZ2fTUUyT7z\",\"type\":\"list\",\"source\":\"magiceden_v2\",\"tokenMint\":\"2F3iJ2FBfWCfBJq1d9RNB876Yyg67ZJPHZ7Dwa8hcGdm\",\"collection\":\"bday\",\"slot\":138518599,\"blockTime\":1654221370,\"buyer\":null,\"buyerReferral\":\"\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"\",\"price\":0.1}]",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 05:03:18 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "383",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "114",
+        "X-RateLimit-Reset": "1654232602",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"17f-H6IzgU3xii9LcIgW6b9bUw3Z/Cg\"",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=cEGtnR8kNwwMve9wSQCYN7H0r2fto1UgJEA29aVZlQU-1654232598-0-AcEC8NbYz8AqLyLAIC11m90gAedqdx7d9Dd5o8Ib2OsROL/Y46iyimLTW0SHzNHDUsgJgZU3bG001t+YqZm6Zpk=; path=/; expires=Fri, 03-Jun-22 05:33:18 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7155e1ab298fec3e-MFE"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

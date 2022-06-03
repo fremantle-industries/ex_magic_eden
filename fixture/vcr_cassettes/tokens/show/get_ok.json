@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/tokens/5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"mintAddress\":\"5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe\",\"owner\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"supply\":1,\"collection\":\"bday\",\"name\":\"Jan_22nd_2022\",\"updateAuthority\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"primarySaleHappened\":true,\"sellerFeeBasisPoints\":1000,\"image\":\"https://www.arweave.net/eANs8rzJml5mzBBQOVlRAOqxiPB_jL6E8NOyLwmmSnI?ext=png\",\"attributes\":[{\"trait_type\":\"month\",\"value\":\"Jan\"},{\"trait_type\":\"day\",\"value\":\"22nd\"},{\"trait_type\":\"year\",\"value\":2022},{\"trait_type\":\"background\",\"value\":\"#F9844A\"}],\"properties\":{\"files\":[{\"uri\":\"https://www.arweave.net/eANs8rzJml5mzBBQOVlRAOqxiPB_jL6E8NOyLwmmSnI?ext=png\",\"type\":\"image/png\"}],\"category\":\"image\",\"creators\":[{\"address\":\"AmGLq5ZRGKjCXPq4tMAEgsKogMu1qFV5Yj28NM4ZZHKN\",\"share\":100}]}}",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 05:18:20 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "779",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "118",
+        "X-RateLimit-Reset": "1654233505",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"30b-gXnh3TWr2PoydV+6BodmkPZikVw\"",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=6fC4bP.QvOsTMeay.AhrejkJAQtSMHTGh1BqNrlTnMA-1654233500-0-AXhGDyoYyfrofHn1atjf00fDulSk+mn2y0XHaCy/yF3GdEU23lxS4gV6dJaA8dDWhBJfUdB6ef6r8vLItpst/Zg=; path=/; expires=Fri, 03-Jun-22 05:48:20 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7155f7ae8b0fec2e-MFE"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

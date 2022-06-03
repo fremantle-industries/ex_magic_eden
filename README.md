@@ -32,7 +32,7 @@ https://api.magiceden.dev
 - [x] `GET /tokens/:token_mint`
 - [x] `GET /tokens/:token_mint/listings`
 - [ ] `GET /tokens/:token_mint/offer_received`
-- [ ] `GET /tokens/:token_mint/activities`
+- [x] `GET /tokens/:token_mint/activities`
 
 #### Wallets
 

@@ -1,0 +1,78 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-mainnet.magiceden.dev/v2/tokens/5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4/activities?limit=2"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"signature\":\"675PasqF2X3R3RaPD21S883btZL1EqnmEye4sQga8UoD777dYmibpvQaFxrGwFNguyGydAm77MRZpYD58GVSbeYn\",\"type\":\"cancelBid\",\"source\":\"magiceden_v2\",\"tokenMint\":\"5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4\",\"collectionSymbol\":\"trippin_ape_tribe\",\"slot\":136469445,\"blockTime\":1654435746,\"buyer\":\"7tAEQBdcbRyEyjE2XB9KEGVKcU8gKpNYy5Ygiyb8Wsyz\",\"buyerReferral\":\"\",\"seller\":null,\"sellerReferral\":\"\",\"price\":0},{\"signature\":\"DTgSkswRq1YepC4YAVhqwgrvk3as7QhQEKWiUUUxR1JWaMeSeDJhdVTFJqtYRSdfQ7bkskS2epbX1Labj8PEqE9\",\"type\":\"cancelBid\",\"source\":\"magiceden_v2\",\"tokenMint\":\"5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4\",\"collectionSymbol\":\"trippin_ape_tribe\",\"slot\":136434992,\"blockTime\":1654410939,\"buyer\":\"GPCvjNzDuvVZJocH6PELZMy9odT31krfgkxVHBEJRGCo\",\"buyerReferral\":\"\",\"seller\":null,\"sellerReferral\":\"\",\"price\":0}]",
+      "headers": {
+        "Date": "Wed, 08 Jun 2022 18:57:06 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "808",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "113",
+        "X-RateLimit-Reset": "1654714683",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"328-dGW4T90fhlFiQ9+yrr80SX5cK4E\"",
+        "X-Kong-Upstream-Latency": "12",
+        "X-Kong-Proxy-Latency": "0",
+        "Via": "kong/2.7.2",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=GEgWbm0d8K6ShzRY7z757CGCW0fox0S3mVEr_rbVBmI-1654714626-0-Aa6ccfmR1MQl9ODZ+IqbOCECxzgZwIE1xkVXhMnlc5hmdNhJfqz4n8lDSWk3LYogUScXXvKSSNqX3kM4ffUn3NY=; path=/; expires=Wed, 08-Jun-22 19:27:06 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7183d9f1baa13a37-SEA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-mainnet.magiceden.dev/v2/tokens/5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4/activities?limit=1"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"signature\":\"675PasqF2X3R3RaPD21S883btZL1EqnmEye4sQga8UoD777dYmibpvQaFxrGwFNguyGydAm77MRZpYD58GVSbeYn\",\"type\":\"cancelBid\",\"source\":\"magiceden_v2\",\"tokenMint\":\"5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4\",\"collectionSymbol\":\"trippin_ape_tribe\",\"slot\":136469445,\"blockTime\":1654435746,\"buyer\":\"7tAEQBdcbRyEyjE2XB9KEGVKcU8gKpNYy5Ygiyb8Wsyz\",\"buyerReferral\":\"\",\"seller\":null,\"sellerReferral\":\"\",\"price\":0}]",
+      "headers": {
+        "Date": "Wed, 08 Jun 2022 18:57:07 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "405",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "112",
+        "X-RateLimit-Reset": "1654714683",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"195-oWlfz3njDQ5ks6Ut6ZLeXHZNPfw\"",
+        "X-Kong-Upstream-Latency": "13",
+        "X-Kong-Proxy-Latency": "1",
+        "Via": "kong/2.7.2",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=gfCrK3dKhUsDcuKuZ8Zt5oYD8RqwJWQD6ONAqOZ1sDE-1654714627-0-AW6gfyi6y4tB++vJKaSQNpTRncR+s89IQ9Qj2soouE/t3CkNAXO3Ai1NSYCDalSCFC4kCQvz2BbRvba2n6XAAag=; path=/; expires=Wed, 08-Jun-22 19:27:07 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7183d9f2ec893a37-SEA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

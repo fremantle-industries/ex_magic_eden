@@ -1,0 +1,78 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-mainnet.magiceden.dev/v2/launchpad/collections?limit=2"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"symbol\":\"mkfrgo\",\"name\":\"MEKKA FROGGO 1.0\",\"description\":\"Paper Clip managed to manipulate frogs that had been injected with 115 components, turning them into war-hungry amphibians. The frogs who managed to flee from the laboratory formed a militia of their own, separate from the operation and planned to take on Paper Clip’s frog army, and ultimately reduce Paper Clip to rubble. Humans launched the Frog War to destroy the Prophets Alliance…\",\"featured\":false,\"image\":\"https://dl.airtable.com/.attachmentThumbnails/378feca21f54c458d483634f198c0c63/7b6898f3\",\"price\":0.49,\"size\":999},{\"symbol\":\"hero_nft\",\"name\":\"HERO NFT\",\"description\":\"A culmination of dreams migrated onto the blockchain and stitched back into the fabric of reality. Collection of 10,101 unique Heroes.\",\"featured\":false,\"image\":\"https://dl.airtable.com/.attachmentThumbnails/4a86bad06744e1b2c7242bf1061595d5/795c2443\",\"price\":1,\"size\":1000,\"launchDatetime\":\"2021-11-24T07:00:00.000Z\"}]",
+      "headers": {
+        "Date": "Wed, 08 Jun 2022 18:33:35 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "965",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "117",
+        "X-RateLimit-Reset": "1654713211",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"3c5-ss6SihkeynuTGHbquWOjZ0uRnAQ\"",
+        "X-Kong-Upstream-Latency": "9",
+        "X-Kong-Proxy-Latency": "0",
+        "Via": "kong/2.7.2",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=PCNVgwr1GnaEVyAvQviKuxThW_VaFfVp8I8cAlHk4IE-1654713215-0-AUdVaI/Vqz6NG3BUW34oHfRR6cx9IKXvHg5x7sIjHTO6yoUo/fx6qA5mxys6W/gYJDjCmMvcYKtKMYHKbqSy1vg=; path=/; expires=Wed, 08-Jun-22 19:03:35 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7183b77bde8f6822-SEA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-mainnet.magiceden.dev/v2/launchpad/collections?limit=1"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"symbol\":\"hero_nft\",\"name\":\"HERO NFT\",\"description\":\"A culmination of dreams migrated onto the blockchain and stitched back into the fabric of reality. Collection of 10,101 unique Heroes.\",\"featured\":false,\"image\":\"https://dl.airtable.com/.attachmentThumbnails/4a86bad06744e1b2c7242bf1061595d5/795c2443\",\"price\":1,\"size\":1000,\"launchDatetime\":\"2021-11-24T07:00:00.000Z\"}]",
+      "headers": {
+        "Date": "Wed, 08 Jun 2022 18:33:35 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "373",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "115",
+        "X-RateLimit-Reset": "1654713275",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"175-jVPytbf0Stz3ilCr06IMvDsPLSs\"",
+        "X-Kong-Upstream-Latency": "21",
+        "X-Kong-Proxy-Latency": "1",
+        "Via": "kong/2.7.2",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=6AsWREqh3SiorxPIP0BewRzrQlppj7FMgxJc8HJ7lnM-1654713215-0-AaDcZGCeCahpRTFBGBrgiiTrR7eH2YlOYC56AXiq1xUz5xX0ebqu6EEPb7qpp6BXi6/0bxBx/O8ulbh6ydyMNOg=; path=/; expires=Wed, 08-Jun-22 19:03:35 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7183b77d39736822-SEA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

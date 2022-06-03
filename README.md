@@ -52,7 +52,7 @@ https://api.magiceden.dev
 
 #### Launchpad
 
-- [ ] `GET /launchpad/collections`
+- [x] `GET /launchpad/collections`
 
 #### Instructions
 

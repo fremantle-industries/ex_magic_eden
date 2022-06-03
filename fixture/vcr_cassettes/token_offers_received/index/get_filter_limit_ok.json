@@ -1,0 +1,78 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-mainnet.magiceden.dev/v2/tokens/5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4/offers_received?limit=2"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"pdaAddress\":\"8nKwNS6avrybEgyqyyZmoBVjtDRmjGeXHJwjWyU4HRxE\",\"tokenMint\":\"5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"buyer\":\"6Q3mXXvmNAYpCDL39ASKPFDbGaE4HibbER2uwZJC7BAE\",\"buyerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":21.84,\"expiry\":0},{\"pdaAddress\":\"F8ZMcL85Fi3BdRQksQencBfqE9viVqezCySG3DHRMCRh\",\"tokenMint\":\"5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"buyer\":\"VmBHvBk6mbbYWcSHXtvmNy3ettCXT2jdp5bfuRqUH8V\",\"buyerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":21,\"expiry\":0}]",
+      "headers": {
+        "Date": "Wed, 08 Jun 2022 18:57:03 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "675",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "118",
+        "X-RateLimit-Reset": "1654714683",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"2a3-SCT/LTqXJSOp+8oOsUBYnRJsc24\"",
+        "X-Kong-Upstream-Latency": "15",
+        "X-Kong-Proxy-Latency": "0",
+        "Via": "kong/2.7.2",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=Hk_DwkzGX8fUCL_m5YgQlXKegjpMMsIgGhjX5kheyIQ-1654714623-0-AQrhuiJFobvm4UMAC7sRKq5k7h80HgBEiCVR8/T9C0o9dcQD/ga3waCpvk0jZ2Glah+ZBaG3C/z7VMvEROvFyjg=; path=/; expires=Wed, 08-Jun-22 19:27:03 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7183d9d91ebf3a37-SEA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-mainnet.magiceden.dev/v2/tokens/5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4/offers_received?limit=1"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"pdaAddress\":\"8nKwNS6avrybEgyqyyZmoBVjtDRmjGeXHJwjWyU4HRxE\",\"tokenMint\":\"5C5B6qnGERpdmVApUNShH4HvfmDmEKjWeNEmDWDSA6Y4\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"buyer\":\"6Q3mXXvmNAYpCDL39ASKPFDbGaE4HibbER2uwZJC7BAE\",\"buyerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":21.84,\"expiry\":0}]",
+      "headers": {
+        "Date": "Wed, 08 Jun 2022 18:57:03 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "340",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "117",
+        "X-RateLimit-Reset": "1654714683",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"154-sWHgwFosWc2zMdh9hTauh8oE5T0\"",
+        "X-Kong-Upstream-Latency": "8",
+        "X-Kong-Proxy-Latency": "0",
+        "Via": "kong/2.7.2",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=xDwtPeCt9upR7B51MfnC9P_hblqH9OAe2apJOzRxsxk-1654714623-0-Aeh11PwbujlalCIIFhWhxcPggfnjL+bwNI5sJB0MZRy1r3gzueQnFMD/1a7ONeQHedwXDc3LYWfbuZ+j+BwF6Ho=; path=/; expires=Wed, 08-Jun-22 19:27:03 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "7183d9da68a43a37-SEA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

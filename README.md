@@ -47,7 +47,7 @@ https://api.magiceden.dev
 - [x] `GET /collections`
 - [ ] `GET /collections/:symbol/listings`
 - [ ] `GET /collections/:symbol/activities`
-- [ ] `GET /collections/:symbol/stats`
+- [x] `GET /collections/:symbol/stats`
 
 #### Launchpad
 

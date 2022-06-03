@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/tokens/5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe/listings"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"pdaAddress\":\"3sQey9j5fLrwCmAc76i9wXQcKj1q8S2G8xDe94vGFxSs\",\"auctionHouse\":\"E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe\",\"tokenAddress\":\"JBjAgL9YFHaBBgNHiYqgKvEASig4pbRs5UfA67rinxE4\",\"tokenMint\":\"5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe\",\"seller\":\"3jT4yCksyCJg24yP9siZHsJP4bCkWMhjpMoCReKoETHb\",\"sellerReferral\":\"autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2\",\"tokenSize\":1,\"price\":0.1,\"rarity\":{}}]",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 05:25:17 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "403",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "119",
+        "X-RateLimit-Reset": "1654233908",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "ETag": "W/\"193-M4es91x/yfwcTVfeJbHju/gBT9I\"",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=r3gIQXgta07lKawv74vXRZ.XZA.GnxiAXBjIFSNUn5I-1654233917-0-ASOhsUgUxF8xCLSh53WabDq0OyeCNESNreoCEPnuTJumQCu11Q+b88HY02SmgKu4TBwwW9qgke1sRTtPRcGJFN0=; path=/; expires=Fri, 03-Jun-22 05:55:17 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "715601dd5f80ec3a-MFE"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

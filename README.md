@@ -29,7 +29,7 @@ https://api.magiceden.dev
 #### Tokens
 
 - [x] `GET /tokens/:token_mint`
-- [ ] `GET /tokens/:token_mint/listings`
+- [x] `GET /tokens/:token_mint/listings`
 - [ ] `GET /tokens/:token_mint/offer_received`
 - [ ] `GET /tokens/:token_mint/activities`
 

@@ -1,0 +1,80 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/collections?limit=2&offset=0"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"symbol\":\"bday\",\"name\":\"bday\",\"description\":\"Every day is a birthday for people\",\"image\":\"https://www.arweave.net/ziDwMS1FyvbVw3ddOjZetOL5fOWWF7oTn4nTOls4Blo?ext=png\",\"twitter\":\"\",\"discord\":\"\",\"website\":\"\",\"isFlagged\":false,\"flagMessage\":\"\",\"categories\":[\"pfps\"]},{\"symbol\":\"sft_test\",\"name\":\"SFT\",\"description\":\"sft testing\",\"image\":\"https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg\",\"twitter\":\"\",\"discord\":\"\",\"website\":\"\",\"isFlagged\":false,\"flagMessage\":\"\",\"categories\":[\"pfps\"]}]",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 04:13:57 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "561",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "119",
+        "X-RateLimit-Reset": "1654229698",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "public, max-age=600, s-maxage=600",
+        "CDN-Cache-Control": "public, max-age=600, s-maxage=600",
+        "ETag": "W/\"231-43ykXJH529dkjTdP8l1tmKatD1I\"",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=Yegr62zaHRFFsWe_U_GYD64Kyu7_206hf7HlPDOKH5o-1654229637-0-AY8sf3ERa8YJA/xG8gB2qv8as97r9N5+d0GHQ9goLFr11aYyoDUqTb3kk+1UOWjytAUiD+R9tdOphfRRsdrZwAA=; path=/; expires=Fri, 03-Jun-22 04:43:57 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "71559964ed69d286-DFW"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api-devnet.magiceden.dev/v2/collections?limit=2&offset=1"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"symbol\":\"sft_test\",\"name\":\"SFT\",\"description\":\"sft testing\",\"image\":\"https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg\",\"twitter\":\"\",\"discord\":\"\",\"website\":\"\",\"isFlagged\":false,\"flagMessage\":\"\",\"categories\":[\"pfps\"]},{\"symbol\":\"lets_test\",\"name\":\"lets test\",\"description\":\"test collection that listed, this should not erase MCC address on ME\",\"image\":\"https://creator-hub-staging.s3.us-east-2.amazonaws.com/lets_test_pfp_1650720983283.png\",\"twitter\":\"https://www.twitter.com/dmshvetsov\",\"discord\":\"https://www.discord.gg/none\",\"website\":\"\",\"isFlagged\":false,\"flagMessage\":\"\",\"categories\":[\"pfps\",null]}]",
+      "headers": {
+        "Date": "Fri, 03 Jun 2022 04:13:58 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "682",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "120",
+        "X-RateLimit-Remaining": "118",
+        "X-RateLimit-Reset": "1654229698",
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "public, max-age=600, s-maxage=600",
+        "CDN-Cache-Control": "public, max-age=600, s-maxage=600",
+        "ETag": "W/\"2aa-oWp3Be9fxyF32MVDVplyKh9ERzs\"",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Set-Cookie": "__cf_bm=P9bRBofyLvc.QdN13kXn7g49GPs7cSb_QheE.rrIEsg-1654229638-0-AXWMywPVQDAAd9F0D6nbIws+2FLUsMMQzRldRLFV3Bx8+LNh/mFbr1UPKePWfiajNGTeBd3pIea7a9ic0+MVYaA=; path=/; expires=Fri, 03-Jun-22 04:43:58 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Server": "cloudflare",
+        "CF-RAY": "71559965de3fd286-DFW"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

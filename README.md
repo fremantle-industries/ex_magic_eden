@@ -44,7 +44,7 @@ https://api.magiceden.dev
 
 #### Collections
 
-- [ ] `GET /collections`
+- [x] `GET /collections`
 - [ ] `GET /collections/:symbol/listings`
 - [ ] `GET /collections/:symbol/activities`
 - [ ] `GET /collections/:symbol/stats`

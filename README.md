@@ -1,4 +1,5 @@
 # ExMagicEden
+[![Build Status](https://github.com/fremantle-industries/ex_magic_eden/workflows/test/badge.svg?branch=main)](https://github.com/fremantle-industries/ex_magic_eden/actions?query=workflow%3Atest)
 [![hex.pm version](https://img.shields.io/hexpm/v/ex_magic_eden.svg?style=flat)](https://hex.pm/packages/ex_magic_eden)
 
 Magic Eden API client for Elixir

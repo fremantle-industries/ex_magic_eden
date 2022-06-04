@@ -1,4 +1,6 @@
 defmodule ExMagicEden.CollectionStats.Show do
+  alias ExMagicEden.Http
+
   @type symbol :: String.t()
   @type collection_stat :: ExMagicEden.CollectionStat.t()
   @type error_reason :: :parse_result_item | String.t()
@@ -7,7 +9,8 @@ defmodule ExMagicEden.CollectionStats.Show do
   @spec get(symbol) :: result
   def get(symbol) do
     "/v2/collections/#{symbol}/stats"
-    |> ExMagicEden.HTTPClient.non_auth_get(%{})
+    |> Http.Request.for_path()
+    |> Http.Client.send()
     |> parse_response()
   end
 

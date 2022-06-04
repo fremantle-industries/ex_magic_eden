@@ -1,4 +1,6 @@
 defmodule ExMagicEden.TokenListings.Index do
+  alias ExMagicEden.Http
+
   @type token_mint :: String.t()
   @type params :: %{
     optional(:offset) => non_neg_integer,
@@ -11,12 +13,13 @@ defmodule ExMagicEden.TokenListings.Index do
   @spec get(token_mint) :: result
   def get(token_mint) do
     "/v2/tokens/#{token_mint}/listings"
-    |> ExMagicEden.HTTPClient.non_auth_get(%{})
+    |> Http.Request.for_path()
+    |> Http.Client.send()
     |> parse_response()
   end
 
-  defp parse_response({:ok, tokens}) do
-    tokens
+  defp parse_response({:ok, data}) do
+    data
     |> Enum.map(&Mapail.map_to_struct(&1, ExMagicEden.TokenListing, transformations: [:snake_case]))
     |> Enum.reduce(
       {:ok, []},

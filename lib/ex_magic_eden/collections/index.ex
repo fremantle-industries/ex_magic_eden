@@ -1,4 +1,6 @@
 defmodule ExMagicEden.Collections.Index do
+  alias ExMagicEden.Http
+
   @type params :: %{
     optional(:offset) => non_neg_integer,
     optional(:limit) => non_neg_integer
@@ -11,12 +13,14 @@ defmodule ExMagicEden.Collections.Index do
   @spec get(params) :: result
   def get(params \\ %{}) do
     "/v2/collections"
-    |> ExMagicEden.HTTPClient.non_auth_get(params)
+    |> Http.Request.for_path()
+    |> Http.Request.with_query(params)
+    |> Http.Client.send()
     |> parse_response()
   end
 
-  defp parse_response({:ok, collections}) do
-    collections
+  defp parse_response({:ok, data}) do
+    data
     |> Enum.map(&Mapail.map_to_struct(&1, ExMagicEden.Collection, transformations: [:snake_case]))
     |> Enum.reduce(
       {:ok, []},

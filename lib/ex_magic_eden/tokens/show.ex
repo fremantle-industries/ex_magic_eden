@@ -1,4 +1,6 @@
 defmodule ExMagicEden.Tokens.Show do
+  alias ExMagicEden.Http
+
   @type token_mint :: String.t()
   @type token :: ExMagicEden.Token.t()
   @type error_reason :: :parse_result_item | String.t()
@@ -7,7 +9,8 @@ defmodule ExMagicEden.Tokens.Show do
   @spec get(token_mint) :: result
   def get(token_mint) do
     "/v2/tokens/#{token_mint}"
-    |> ExMagicEden.HTTPClient.non_auth_get(%{})
+    |> Http.Request.for_path()
+    |> Http.Client.send()
     |> parse_response()
   end
 

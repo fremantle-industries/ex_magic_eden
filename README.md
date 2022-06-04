@@ -11,7 +11,7 @@ Add the `ex_magic_eden` package to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:ex_magic_eden, "~> 0.0.3"}
+    {:ex_magic_eden, "~> 0.0.4"}
   ]
 end
 ```

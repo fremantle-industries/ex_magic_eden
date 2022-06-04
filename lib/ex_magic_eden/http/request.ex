@@ -2,7 +2,7 @@ defmodule ExMagicEden.Http.Request do
   @type protocol :: String.t()
   @type domain :: String.t()
   @type path :: String.t()
-  @type verb :: :get | :post | :put | :delete
+  @type http_method :: :get | :post | :put | :delete
   @type params :: map
 
   @type t :: %__MODULE__{
@@ -12,10 +12,10 @@ defmodule ExMagicEden.Http.Request do
     query: String.t() | nil,
     body: String.t() | nil,
     headers: keyword,
-    verb: verb | nil
+    method: http_method | nil
   }
 
-  defstruct ~w[protocol domain path query body headers verb]a
+  defstruct ~w[protocol domain path query body headers method]a
 
   @spec for_path(path) :: t
   def for_path(path) do
@@ -36,6 +36,11 @@ defmodule ExMagicEden.Http.Request do
   @spec with_domain(t, domain) :: t
   def with_domain(request, domain) do
     %{request | domain: domain}
+  end
+
+  @spec with_method(t, http_method) :: t
+  def with_method(request, method) do
+    %{request | method: method}
   end
 
   @spec url(t) :: String.t()

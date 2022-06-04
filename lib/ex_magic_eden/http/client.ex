@@ -15,6 +15,13 @@ defmodule ExMagicEden.Http.Client do
   @spec adapter :: module
   def adapter, do: Application.get_env(:ex_magic_eden, :adapter, Http.HTTPoisonAdapter)
 
+  @spec get(request) :: result
+  def get(request) do
+    request
+    |> Http.Request.with_method(:get)
+    |> send()
+  end
+
   @spec send(request) :: result
   def send(request) do
     http_adapter = adapter()

@@ -10,7 +10,7 @@ defmodule ExMagicEden.Tokens.Show do
   def get(token_mint) do
     "/v2/tokens/#{token_mint}"
     |> Http.Request.for_path()
-    |> Http.Client.send()
+    |> Http.Client.get()
     |> parse_response()
   end
 

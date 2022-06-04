@@ -10,7 +10,7 @@ defmodule ExMagicEden.CollectionStats.Show do
   def get(symbol) do
     "/v2/collections/#{symbol}/stats"
     |> Http.Request.for_path()
-    |> Http.Client.send()
+    |> Http.Client.get()
     |> parse_response()
   end
 

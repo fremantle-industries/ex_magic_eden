@@ -16,7 +16,7 @@ defmodule ExMagicEden.CollectionListings.Index do
     "/v2/collections/#{symbol}/listings"
     |> Http.Request.for_path()
     |> Http.Request.with_query(params)
-    |> Http.Client.send()
+    |> Http.Client.get()
     |> parse_response()
   end
 

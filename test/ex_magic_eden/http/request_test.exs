@@ -22,4 +22,9 @@ defmodule ExMagicEden.Http.RequestTest do
     request = %Request{} |> Request.with_protocol("ftp")
     assert request.protocol == "ftp"
   end
+
+  test ".with_method/2 assigns the http method" do
+    request = %Request{} |> Request.with_method(:get)
+    assert request.method == :get
+  end
 end

@@ -8,10 +8,10 @@ defmodule ExMagicEden.Http.HTTPoisonAdapter do
     url = Http.Request.url(request)
 
     %HTTPoison.Request{
-      method: request.verb,
+      method: request.method,
       url: url,
       headers: request.headers,
-      body: request.body
+      body: request.body || ""
     }
     |> HTTPoison.request()
     |> map_response()

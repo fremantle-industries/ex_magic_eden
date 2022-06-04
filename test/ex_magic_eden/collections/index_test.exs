@@ -1,8 +1,14 @@
 defmodule ExMagicEden.Collections.IndexTest do
   use ExUnit.Case, async: false
   use ExVCR.Mock, adapter: ExVCR.Adapter.Hackney
-  import Mock
+  use WithEnv
   doctest ExMagicEden.Collections.Index
+
+  defmodule TestAdapter do
+    def send(_request) do
+      {:error, :from_adapter}
+    end
+  end
 
   setup_all do
     HTTPoison.start()
@@ -46,8 +52,8 @@ defmodule ExMagicEden.Collections.IndexTest do
   end
 
   test ".get/n bubbles error tuples" do
-    with_mock HTTPoison, request: fn _url -> {:error, %HTTPoison.Error{reason: :timeout}} end do
-      assert ExMagicEden.Collections.Index.get() == {:error, :timeout}
+    with_env put: [ex_magic_eden: [adapter: TestAdapter]] do
+      assert ExMagicEden.Collections.Index.get() == {:error, :from_adapter}
     end
   end
 end

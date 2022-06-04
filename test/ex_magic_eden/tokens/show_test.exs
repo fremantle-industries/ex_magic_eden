@@ -1,10 +1,16 @@
 defmodule ExMagicEden.Tokens.ShowTest do
   use ExUnit.Case, async: false
   use ExVCR.Mock, adapter: ExVCR.Adapter.Hackney
-  import Mock
+  use WithEnv
   doctest ExMagicEden.Tokens.Show
 
   @mint_address "5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe"
+
+  defmodule TestAdapter do
+    def send(_request) do
+      {:error, :from_adapter}
+    end
+  end
 
   setup_all do
     HTTPoison.start()
@@ -20,8 +26,8 @@ defmodule ExMagicEden.Tokens.ShowTest do
   end
 
   test ".get/n bubbles error tuples" do
-    with_mock HTTPoison, request: fn _url -> {:error, %HTTPoison.Error{reason: :timeout}} end do
-      assert ExMagicEden.Tokens.Show.get(@mint_address) == {:error, :timeout}
+    with_env put: [ex_magic_eden: [adapter: TestAdapter]] do
+      assert ExMagicEden.Tokens.Show.get(@mint_address) == {:error, :from_adapter}
     end
   end
 end

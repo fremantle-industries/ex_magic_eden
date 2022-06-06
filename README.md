@@ -67,6 +67,10 @@ https://api.magiceden.dev
 - [ ] `GET /instructions/deposit`
 - [ ] `GET /instructions/withdraw`
 
+## Undocumented RPC API
+
+- [x] `GET /rpc/getListedNFTsByQueryLite`
+
 ## Authors
 
 - Alex Kwiatkowski - alex+git@fremantle.io

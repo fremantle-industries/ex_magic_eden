@@ -7,7 +7,7 @@ defmodule ExMagicEden.Http.Client do
   @type result :: {:ok, data} | {:error, error_reason}
 
   @spec domain :: String.t()
-  def domain, do: Application.get_env(:ex_magic_eden, :domain, "api-devnet.magiceden.dev")
+  def domain, do: Application.get_env(:ex_magic_eden, :domain, "api-mainnet.magiceden.io")
 
   @spec protocol :: String.t()
   def protocol, do: Application.get_env(:ex_magic_eden, :protocol, "https")

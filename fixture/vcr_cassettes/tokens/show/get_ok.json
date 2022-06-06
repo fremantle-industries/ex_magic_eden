@@ -8,7 +8,7 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://api-devnet.magiceden.dev/v2/tokens/5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe"
+      "url": "https://api-mainnet.magiceden.io/v2/tokens/5joGadC3Z5aSm4PsCFRtoAKTEtvLYT2iU8nFaNTcjyMe"
     },
     "response": {
       "binary": false,
@@ -28,7 +28,7 @@
         "CF-Cache-Status": "MISS",
         "Accept-Ranges": "bytes",
         "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-        "Set-Cookie": "__cf_bm=6fC4bP.QvOsTMeay.AhrejkJAQtSMHTGh1BqNrlTnMA-1654233500-0-AXhGDyoYyfrofHn1atjf00fDulSk+mn2y0XHaCy/yF3GdEU23lxS4gV6dJaA8dDWhBJfUdB6ef6r8vLItpst/Zg=; path=/; expires=Fri, 03-Jun-22 05:48:20 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
+        "Set-Cookie": "__cf_bm=6fC4bP.QvOsTMeay.AhrejkJAQtSMHTGh1BqNrlTnMA-1654233500-0-AXhGDyoYyfrofHn1atjf00fDulSk+mn2y0XHaCy/yF3GdEU23lxS4gV6dJaA8dDWhBJfUdB6ef6r8vLItpst/Zg=; path=/; expires=Fri, 03-Jun-22 05:48:20 GMT; domain=.magiceden.io; HttpOnly; Secure; SameSite=None",
         "Server": "cloudflare",
         "CF-RAY": "7155f7ae8b0fec2e-MFE"
       },

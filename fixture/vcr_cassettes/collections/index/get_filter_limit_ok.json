@@ -8,7 +8,7 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://api-devnet.magiceden.dev/v2/collections?limit=50"
+      "url": "https://api-mainnet.magiceden.io/v2/collections?limit=50"
     },
     "response": {
       "binary": false,
@@ -47,7 +47,7 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://api-devnet.magiceden.dev/v2/collections?limit=10"
+      "url": "https://api-mainnet.magiceden.io/v2/collections?limit=10"
     },
     "response": {
       "binary": false,

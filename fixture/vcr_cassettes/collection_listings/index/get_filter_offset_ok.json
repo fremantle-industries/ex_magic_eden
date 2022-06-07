@@ -8,7 +8,7 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://api-mainnet.magiceden.io/v2/collections/bday/listings?limit=2&offset=0"
+      "url": "https://api-mainnet.magiceden.dev/v2/collections/bday/listings?limit=2&offset=0"
     },
     "response": {
       "binary": false,
@@ -28,7 +28,7 @@
         "CF-Cache-Status": "REVALIDATED",
         "Accept-Ranges": "bytes",
         "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-        "Set-Cookie": "__cf_bm=FXfblQY4Rs37lkgI7cgnClO0g9kxjxzMfgZURZdnqZs-1654232278-0-AdYSu8lZ3PDjfXWSob7S557qfTnDO5UTyO6cID0OvO7tQ/WrCM7kCbfi2vSSSazBVGEWCt1hUVIYq4C6fDl60ac=; path=/; expires=Fri, 03-Jun-22 05:27:58 GMT; domain=.magiceden.io; HttpOnly; Secure; SameSite=None",
+        "Set-Cookie": "__cf_bm=FXfblQY4Rs37lkgI7cgnClO0g9kxjxzMfgZURZdnqZs-1654232278-0-AdYSu8lZ3PDjfXWSob7S557qfTnDO5UTyO6cID0OvO7tQ/WrCM7kCbfi2vSSSazBVGEWCt1hUVIYq4C6fDl60ac=; path=/; expires=Fri, 03-Jun-22 05:27:58 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
         "Server": "cloudflare",
         "CF-RAY": "7155d9db4e659a32-MFE"
       },
@@ -45,7 +45,7 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://api-mainnet.magiceden.io/v2/collections/bday/listings?limit=2&offset=1"
+      "url": "https://api-mainnet.magiceden.dev/v2/collections/bday/listings?limit=2&offset=1"
     },
     "response": {
       "binary": false,
@@ -66,7 +66,7 @@
         "Age": "10",
         "Accept-Ranges": "bytes",
         "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-        "Set-Cookie": "__cf_bm=1tv2.SRElOHUOBZPRDULbhXFSMLDFe82nCWL5j1Qb70-1654232278-0-AQF7h7bm1SVIDE8HQsVPcri6DJJJZNHYPD5yoI0uG0daxI5NVq63gV123qhNZgM6hAMyQy9V62kc9o0fOu+kmAQ=; path=/; expires=Fri, 03-Jun-22 05:27:58 GMT; domain=.magiceden.io; HttpOnly; Secure; SameSite=None",
+        "Set-Cookie": "__cf_bm=1tv2.SRElOHUOBZPRDULbhXFSMLDFe82nCWL5j1Qb70-1654232278-0-AQF7h7bm1SVIDE8HQsVPcri6DJJJZNHYPD5yoI0uG0daxI5NVq63gV123qhNZgM6hAMyQy9V62kc9o0fOu+kmAQ=; path=/; expires=Fri, 03-Jun-22 05:27:58 GMT; domain=.magiceden.dev; HttpOnly; Secure; SameSite=None",
         "Server": "cloudflare",
         "CF-RAY": "7155d9dc5f1c9a32-MFE"
       },

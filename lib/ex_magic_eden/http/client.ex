@@ -6,8 +6,11 @@ defmodule ExMagicEden.Http.Client do
   @type error_reason :: Jason.DecodeError.t() | Http.Adapter.error_reason()
   @type result :: {:ok, data} | {:error, error_reason}
 
-  @spec domain :: String.t()
-  def domain, do: Application.get_env(:ex_magic_eden, :domain, "api-mainnet.magiceden.io")
+  @spec rest_domain :: String.t()
+  def rest_domain, do: Application.get_env(:ex_magic_eden, :rest_domain, "api-mainnet.magiceden.dev")
+
+  @spec rpc_domain :: String.t()
+  def rpc_domain, do: Application.get_env(:ex_magic_eden, :rpc_domain, "api-mainnet.magiceden.io")
 
   @spec protocol :: String.t()
   def protocol, do: Application.get_env(:ex_magic_eden, :protocol, "https")
@@ -19,16 +22,39 @@ defmodule ExMagicEden.Http.Client do
   def get(request) do
     request
     |> Http.Request.with_method(:get)
-    |> send()
+    |> send_rest()
   end
 
-  @spec send(request) :: result
+  @spec call_rpc(request) :: result
+  def call_rpc(request) do
+    request
+    |> Http.Request.with_method(:get)
+    |> send_rpc()
+  end
+
+  @deprecated "Use ExMagicEden.Http.Client.send_rest instead."
   def send(request) do
+    send_rest(request)
+  end
+
+  @spec send_rest(request) :: result
+  def send_rest(request) do
     http_adapter = adapter()
 
     request
     |> Http.Request.with_protocol(protocol())
-    |> Http.Request.with_domain(domain())
+    |> Http.Request.with_domain(rest_domain())
+    |> http_adapter.send()
+    |> parse_response()
+  end
+
+  @spec send_rpc(request) :: result
+  def send_rpc(request) do
+    http_adapter = adapter()
+
+    request
+    |> Http.Request.with_protocol(protocol())
+    |> Http.Request.with_domain(rpc_domain())
     |> http_adapter.send()
     |> parse_response()
   end

@@ -26,7 +26,7 @@ defmodule ExMagicEden.Rpc.GetListedNFTsByQueryLite do
         "/rpc/getListedNFTsByQueryLite"
         |> Http.Request.for_path()
         |> Http.Request.with_query(%{q: mongo_query})
-        |> Http.Client.get()
+        |> Http.Client.call_rpc()
         |> parse_response()
     end
   end
